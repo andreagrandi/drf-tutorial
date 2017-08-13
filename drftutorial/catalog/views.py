@@ -40,7 +40,6 @@ class ProductDetail(generics.RetrieveUpdateDestroyAPIView):
 # GET  products/<product_id>/reviews/: return a list of Reviews
 # POST products/<product_id>/reviews/: create a Review
 #      data = {
-#          "product": 1,
 #          "title": "Best food ever",
 #          "review": "Really the best food I have ever tried",
 #          "rating": 5
