@@ -26,6 +26,7 @@ class ProductList(generics.ListCreateAPIView):
 #
 # GET    products/<product_id>/: return a Product
 # PUT    products/<product_id>/: update a Product
+# PATCH  products/<product_id>/: patch a Product
 # DELETE products/<product_id>/: delete a Product
 class ProductDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Product.objects.all()
@@ -65,6 +66,7 @@ class ReviewList(generics.ListCreateAPIView):
 #
 # GET    products/<product_id>/reviews/<review_id>/: return a Review
 # PUT    products/<product_id>/reviews/<review_id>/: update a Review
+# PATCH  products/<product_id>/reviews/<review_id>/: patch a Review
 # DELETE products/<product_id>/reviews/<review_id>/: delete a Review
 class ReviewDetail(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ReviewSerializer
