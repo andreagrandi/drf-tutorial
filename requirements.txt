@@ -1,4 +1,4 @@
-Django==1.10.1
-djangorestframework==3.4.7
-pytest==3.0.6
-pytest-django==3.1.2
+Django==1.11.22
+djangorestframework==3.9.4
+pytest==5.0.0
+pytest-django==3.5.1
